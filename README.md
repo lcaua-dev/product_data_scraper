@@ -1,18 +1,13 @@
-# 📊 Project Overview
+# 👟 Sports Shoes ETL Project
 In this project, I made an ETL to collect sports shoes and analyzed some points, focusing on men's sports shoes. I also created a dashboard to visualize the data graphically.
 
-# ⚙️ Technologies Used
+## 🚀 Technologies Used
 - **Scrapy**: Powerful web scraping framework for Python.
 - **Streamlit**: Rapid web app development framework.
 - **PostgreSQL**: Reliable relational database system.
 - **Pandas**: Essential data manipulation library for Python.
 
-# 💡 KPIs
-1. Number of unique brands
-2. Average price
-3. Most found brand up to page 10
-4. Average price per brand
-5. Total satisfaction by Brand
+## ⚙️ Workflow
 
 ```mermaid
     graph TD;
@@ -33,6 +28,13 @@ In this project, I made an ETL to collect sports shoes and analyzed some points,
     O --> P[End];
 
 ```
+
+## 💡 KPIs
+1. **Number of unique brands**
+2. **Average price**
+3. **Most found brand up to page 10**
+4. **Average price per brand**
+5. **Total satisfaction by Brand**
 
 ### Insights
 *From the analysis, several general insights emerged*:
