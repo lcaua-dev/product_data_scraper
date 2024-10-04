@@ -26,9 +26,9 @@ st.title("Serach Market - sport shoes on Mercado Livre")
 st.subheader("main KPIs")
 col1, col2, col3 = st.columns(3)
 
-# KPI 1: total of itens
-total_itens = df.shape[0]
-col1.metric(label="Total of itens", value=total_itens)
+# KPI 1: total of items
+total_items = df.shape[0]
+col1.metric(label="Total of items", value=total_items)
 
 # KPI 2: Number of unique brands
 unique_brands = df["brand"].nunique()
@@ -38,8 +38,8 @@ col2.metric("Number of unique brands", value=unique_brands)
 average_new_price = df["new_price"].mean()
 col3.metric("Average new price (R$)", value=f"{average_new_price:.2f}")
 
-# most finded brand until page 10
-st.subheader("Most finded brand until page 10")
+# Most found brand up to page 10
+st.subheader("Most found brand up to page 10")
 col1, col2 = st.columns([4, 2])
 top_10_pages_brands = df["brand"].value_counts().sort_values(ascending=False)
 col1.bar_chart(top_10_pages_brands)
@@ -54,8 +54,8 @@ average_price_by_brand = (
 col1.bar_chart(average_price_by_brand)
 col2.write(average_price_by_brand)
 
-# Total satisfaction per Brand
-st.subheader("Total satisfaction per Brand")
+# Total satisfaction by Brand
+st.subheader("Total satisfaction by Brand")
 col1, col2 = st.columns([4, 2])
 df_non_zero_reviews = df[df["reviews_rating_number"] > 0]
 satisfaction_by_brand = (
