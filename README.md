@@ -1,11 +1,12 @@
 # 👟 Sports Shoes ETL Project
-In this project, I made an ETL to collect sports shoes and analyzed some points, focusing on men's sports shoes. I also created a dashboard to visualize the data graphically.
+In this project, I was looking for running shoes, so i made an ETL to collect sports shoes and analyzed some points, focusing on men's sports shoes. I also created a **simple dashboard** to visualize the data graphically using streamlit and power bi.
 
 ## 🚀 Technologies Used
 - **Scrapy**: Powerful web scraping framework for Python.
 - **Streamlit**: Rapid web app development framework.
 - **PostgreSQL**: Reliable relational database system.
 - **Pandas**: Essential data manipulation library for Python.
+- **PowerBI**: Business analytics tool that helps visualize data and share insights.
 
 ## ⚙️ Workflow
 
